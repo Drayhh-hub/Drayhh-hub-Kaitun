@@ -3,7 +3,7 @@
     Kaitun or Cuttay, a phrase of a Roblox script that fully autofarms everything in Blox Fruits (game)
     "Ơ! Thằng lồn này dùng cuttay à? Mới chơi có (1) tuần mà đã giàu như này rồi?"
 
-    Binh Hub Kaitun (catn1qqer)
+    Binh Hub Kaitun (Drayhh-hub)
     Project started on 13/5/2023
 
 ]]
