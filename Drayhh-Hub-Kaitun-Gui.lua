@@ -45,10 +45,10 @@ local UICorner_10 = Instance.new("UICorner")
 --Properties:
 
 KaitunBinhHubGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-KaitunBinhHubGUI.Name = "KaitunBinhHubGUI"
+KaitunBinhHubGUI.Name = "Drayhh-Hub-kaitun"
 KaitunBinhHubGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-Frame.Parent = KaitunBinhHubGUI
+Frame.Parent = Drayhh-Hub-kaitun
 Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
 Frame.Position = UDim2.new(0.499266863, -516, 0.498697907, -291)
@@ -414,7 +414,7 @@ Game.TextSize = 23.000
 Game.TextWrapped = true
 Game.TextXAlignment = Enum.TextXAlignment.Left
 
-CreatorName.Name = "CreatorName"
+CreatorName.Name = "Drayhh hub Kaitun"
 CreatorName.Parent = Frame
 CreatorName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 CreatorName.BackgroundTransparency = 1.000
@@ -422,7 +422,7 @@ CreatorName.BorderSizePixel = 0
 CreatorName.Position = UDim2.new(0.255566239, 0, 0.902229786, 0)
 CreatorName.Size = UDim2.new(0, 200, 0, 27)
 CreatorName.Font = Enum.Font.Gotham
-CreatorName.Text = "Gamer Robot Inc"
+CreatorName.Text = "Drayhh hub Kaitun"
 CreatorName.TextColor3 = Color3.fromRGB(255, 255, 255)
 CreatorName.TextSize = 15.000
 CreatorName.TextTransparency = 0.350
@@ -445,14 +445,14 @@ LogoName.BorderSizePixel = 0
 LogoName.Position = UDim2.new(1.17929673, 0, 0.0880808681, 0)
 LogoName.Size = UDim2.new(0, 124, 0, 70)
 LogoName.Font = Enum.Font.GothamBold
-LogoName.Text = "Binh Hub Kaitun"
+LogoName.Text = "Drayhh Hub Kaitun"
 LogoName.TextColor3 = Color3.fromRGB(255, 255, 255)
 LogoName.TextSize = 23.000
 LogoName.TextWrapped = true
 LogoName.TextXAlignment = Enum.TextXAlignment.Left
 
 ToggleUIButton.Name = "ToggleUIButton"
-ToggleUIButton.Parent = KaitunBinhHubGUI
+ToggleUIButton.Parent = Drayhh Hub Kaitun
 ToggleUIButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 ToggleUIButton.Position = UDim2.new(0.159199998, 0, 0.25920248, 0)
 ToggleUIButton.Size = UDim2.new(0, 70, 0, 70)
@@ -496,10 +496,10 @@ ToggleUIButton.MouseButton1Click:Connect(function()
     toggleState = not toggleState -- Toggling the state
     if toggleState then
         ToggleUIButton.Text = "close"
-        game:GetService("Players").LocalPlayer.PlayerGui.KaitunBinhHubGUI.Frame.Visible = true
+        game:GetService("Players").LocalPlayer.PlayerGui.Drayhh Hub Kaitun.Frame.Visible = true
     else
         ToggleUIButton.Text = "open"
-        game:GetService("Players").LocalPlayer.PlayerGui.KaitunBinhHubGUI.Frame.Visible = false
+        game:GetService("Players").LocalPlayer.PlayerGui.Drayhh Hub Kaitun.Frame.Visible = false
     end
 end)
 
