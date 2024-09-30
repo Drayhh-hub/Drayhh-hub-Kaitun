@@ -1,6 +1,6 @@
 local LocalPlayer = game:GetService("Players").LocalPlayer
 
-local KaitunBinhHubGUI = Instance.new("ScreenGui")
+local Drayhh-hub Kaitun = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local Status = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -45,7 +45,7 @@ local UICorner_10 = Instance.new("UICorner")
 --Properties:
 
 KaitunBinhHubGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-KaitunBinhHubGUI.Name = "Drayhh-Hub-kaitun"
+Drayhh-hub Kaitun.Name = "Drayhh-Hub-kaitun"
 KaitunBinhHubGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = Drayhh-Hub-kaitun
@@ -347,7 +347,7 @@ ProfileTab.BackgroundTransparency = 1.000
 ProfileTab.BorderSizePixel = 0
 ProfileTab.Position = UDim2.new(0.0389033705, 0, 0.0712717101, 0)
 ProfileTab.Size = UDim2.new(0, 40, 0, 40)
-ProfileTab.Image = "rbxassetid://7992557358"
+ProfileTab.Image = "rbxassetid://10491133376"
 ProfileTab.ScaleType = Enum.ScaleType.Crop
 
 PlayerStats.Name = "PlayerStats"
@@ -371,7 +371,7 @@ ItemsTab.BackgroundTransparency = 1.000
 ItemsTab.BorderSizePixel = 0
 ItemsTab.Position = UDim2.new(0.0516693145, 0, 0.529215634, 0)
 ItemsTab.Size = UDim2.new(0, 33, 0, 31)
-ItemsTab.Image = "rbxassetid://7485051715"
+ItemsTab.Image = "rbxassetid://10491133376"
 ItemsTab.ImageTransparency = 0.480
 ItemsTab.ScaleType = Enum.ScaleType.Crop
 
@@ -396,7 +396,7 @@ Main.BackgroundColor3 = Color3.fromRGB(85, 165, 175)
 Main.Position = UDim2.new(0.247821882, 0, 0.0668953657, 0)
 Main.Size = UDim2.new(0, 766, 0, 445)
 Main.ZIndex = 0
-Main.Image = "rbxassetid://13412525664"
+Main.Image = "rbxassetid://10491133376"
 
 UICorner_6.Parent = Main
 
@@ -435,7 +435,7 @@ Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Logo.Position = UDim2.new(0.0199410655, 0, 0.0274442546, 0)
 Logo.Size = UDim2.new(0, 78, 0, 78)
-Logo.Image = "http://www.roblox.com/asset/?id=13450463175"
+Logo.Image = "http://www.roblox.com/asset/?id=10491133376"
 
 LogoName.Name = "LogoName"
 LogoName.Parent = Logo
