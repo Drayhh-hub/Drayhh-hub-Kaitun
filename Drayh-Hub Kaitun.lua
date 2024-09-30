@@ -1,10 +1,9 @@
 --[[
 
-    Kaitun or Cuttay, a phrase of a Roblox script that fully autofarms everything in Blox Fruits (game)
-    "Ơ! Thằng lồn này dùng cuttay à? Mới chơi có (1) tuần mà đã giàu như này rồi?"
-
-    Binh Hub Kaitun (Drayhh-hub)
-    Project started on 13/5/2023
+    Kaitun ou Cuttay, uma frase de um script Roblox que faz autofarm totalmente em Blox Fruits (jogo)
+    "Eh! Essa boceta usa HACK? Ele só joga há (1) semana e já é tão rico?"
+    Drayhh hub kaitun (Drayhh-hub)
+  
 
 ]]
 
@@ -27,7 +26,7 @@ getgenv().Config = {
 
 -- Variables
 
-local DCSettings = Config["Discord"]
+local DCSettings = Config["https://discord.gg/VKsDR8cb"]
 local FSSettings = Config["Autofarm"]
 
 function TP(P1)
@@ -137,11 +136,11 @@ local UICorner_10 = Instance.new("UICorner")
 -- Webhook
 
 local data = {
-    ["username"] = 'Binh Hub Notifier', -- haha NO.
+    ["username"] = 'Drayhh Hub kaitun', -- haha NO.
     ['content'] = DCSettings["Content"],
     ["embeds"] = {
         {
-            ["title"] = '**Binh Hub Account Status**', -- LMAO WTF
+            ["title"] = '**Drayhh hub status conta**', -- LMAO WTF
             ["color"] = 5539744, -- color id		
             ["type"] = "rich",
             ["fields"] =  {
@@ -186,7 +185,7 @@ local data = {
                 },
             },
             ["footer"] = {
-                ["text"] = "Script còn mới, đôi khi vài thứ thiếu. Mong bạn thông cảm.".."\nTime".." : "..os.date("%c").." ("..os.date("%X")..")",
+                ["Drayhh hub kaitun"] = "Script còn mới, đôi khi vài thứ thiếu. Mong bạn thông cảm.".."\nTime".." : "..os.date("%c").." ("..os.date("%X")..")",
             },
         }
     },
@@ -194,11 +193,11 @@ local data = {
 
 --Properties:
 
-KaitunBinhHubGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-KaitunBinhHubGUI.Name = "KaitunBinhHubGUI"
-KaitunBinhHubGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Drayhhhubkaitun.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Drayhhhubkaitun.Name = "Drayhhhubkaitun"
+Drayhhhubkaitun.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-Frame.Parent = KaitunBinhHubGUI
+Frame.Parent = Drayhhhubkaitun
 Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
 Frame.Position = UDim2.new(0.499266863, -516, 0.498697907, -291)
@@ -370,7 +369,7 @@ BlockCorner.BorderColor3 = Color3.fromRGB(36, 36, 36)
 BlockCorner.Position = UDim2.new(-0.000219917798, 0, -0.0050350721, 0)
 BlockCorner.Size = UDim2.new(0, 766, 0, 83)
 
-Credits1.Name = "Credits1"
+Credits1.Name = "Drayhhhubkaitun"
 Credits1.Parent = Below
 Credits1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Credits1.BackgroundTransparency = 1.000
@@ -378,14 +377,14 @@ Credits1.BorderSizePixel = 0
 Credits1.Position = UDim2.new(0.566378653, 0, 0.412709624, 0)
 Credits1.Size = UDim2.new(0, 315, 0, 21)
 Credits1.Font = Enum.Font.GothamBold
-Credits1.Text = "legiteriumz, thuy - coding"
+Credits1.Text = "Drayhhhubkaitun, G - coding"
 Credits1.TextColor3 = Color3.fromRGB(255, 255, 255)
 Credits1.TextSize = 23.000
 Credits1.TextTransparency = 0.790
 Credits1.TextWrapped = true
 Credits1.TextXAlignment = Enum.TextXAlignment.Right
 
-Credits2.Name = "Credits2"
+Credits2.Name = "Drayhhhubkaitun"
 Credits2.Parent = Below
 Credits2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Credits2.BackgroundTransparency = 1.000
@@ -408,7 +407,7 @@ Brand.BorderSizePixel = 0
 Brand.Position = UDim2.new(0.795740545, 0, 0.010291595, 0)
 Brand.Size = UDim2.new(0, 200, 0, 27)
 Brand.Font = Enum.Font.Gotham
-Brand.Text = "catn1qqer x Binh Hub"
+Brand.Text = "Drayhhhubkaitun x Cervo de Deus rafael"
 Brand.TextColor3 = Color3.fromRGB(255, 255, 255)
 Brand.TextSize = 17.000
 Brand.TextTransparency = 0.440
@@ -428,7 +427,7 @@ Profile.ScaleType = Enum.ScaleType.Crop
 UICorner_3.CornerRadius = UDim.new(1, 0)
 UICorner_3.Parent = Profile
 
-Welcome.Name = "Welcome"
+Welcome.Name = "Bem vindo"
 Welcome.Parent = Frame
 Welcome.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Welcome.BackgroundTransparency = 1.000
@@ -436,7 +435,7 @@ Welcome.BorderSizePixel = 0
 Welcome.Position = UDim2.new(0.447241038, 0, 0.475128651, 0)
 Welcome.Size = UDim2.new(0, 200, 0, 30)
 Welcome.Font = Enum.Font.Gotham
-Welcome.Text = "Welcome,"
+Welcome.Text = "Bem vindo ,"
 Welcome.TextColor3 = Color3.fromRGB(255, 255, 255)
 Welcome.TextSize = 29.000
 Welcome.TextWrapped = true
@@ -497,7 +496,7 @@ ProfileTab.BackgroundTransparency = 1.000
 ProfileTab.BorderSizePixel = 0
 ProfileTab.Position = UDim2.new(0.0389033705, 0, 0.0712717101, 0)
 ProfileTab.Size = UDim2.new(0, 40, 0, 40)
-ProfileTab.Image = "rbxassetid://7992557358"
+ProfileTab.Image = "rbxassetid://10491133376"
 ProfileTab.ScaleType = Enum.ScaleType.Crop
 
 PlayerStats.Name = "PlayerStats"
@@ -521,7 +520,7 @@ ItemsTab.BackgroundTransparency = 1.000
 ItemsTab.BorderSizePixel = 0
 ItemsTab.Position = UDim2.new(0.0516693145, 0, 0.529215634, 0)
 ItemsTab.Size = UDim2.new(0, 33, 0, 31)
-ItemsTab.Image = "rbxassetid://7485051715"
+ItemsTab.Image = "rbxassetid://10491133376"
 ItemsTab.ImageTransparency = 0.480
 ItemsTab.ScaleType = Enum.ScaleType.Crop
 
@@ -546,7 +545,7 @@ Main.BackgroundColor3 = Color3.fromRGB(85, 165, 175)
 Main.Position = UDim2.new(0.247821882, 0, 0.0668953657, 0)
 Main.Size = UDim2.new(0, 766, 0, 445)
 Main.ZIndex = 0
-Main.Image = "rbxassetid://13412525664"
+Main.Image = "rbxassetid://10491133376"
 
 UICorner_6.Parent = Main
 
@@ -587,7 +586,7 @@ Logo.Position = UDim2.new(0.0199410655, 0, 0.0274442546, 0)
 Logo.Size = UDim2.new(0, 78, 0, 78)
 Logo.Image = "http://www.roblox.com/asset/?id=13450463175"
 
-LogoName.Name = "LogoName"
+LogoName.Name = "Drayhh hub Kaitun"
 LogoName.Parent = Logo
 LogoName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 LogoName.BackgroundTransparency = 1.000
@@ -595,7 +594,7 @@ LogoName.BorderSizePixel = 0
 LogoName.Position = UDim2.new(1.17929673, 0, 0.0880808681, 0)
 LogoName.Size = UDim2.new(0, 124, 0, 70)
 LogoName.Font = Enum.Font.GothamBold
-LogoName.Text = "Binh Hub Kaitun"
+LogoName.Text = "Drayhh Hub Kaitun"
 LogoName.TextColor3 = Color3.fromRGB(255, 255, 255)
 LogoName.TextSize = 23.000
 LogoName.TextWrapped = true
