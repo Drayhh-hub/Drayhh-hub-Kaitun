@@ -26,7 +26,7 @@ _G.Settings = {
 
 local LocalPlayer = game:GetService("Players").LocalPlayer
 
-local KaitunBinhHubGUI = Instance.new("ScreenGui")
+local DrayhHubKaitun = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local Status = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -70,11 +70,11 @@ local UICorner_10 = Instance.new("UICorner")
 
 --Properties:
 
-KaitunBinhHubGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-KaitunBinhHubGUI.Name = "KaitunBinhHubGUI"
-KaitunBinhHubGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+DrayhhHubKaitunGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+DrayhhHubKaitunGUI.Name = "DrayhhHubKaitun"
+DrayhhHubKaitunGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-Frame.Parent = KaitunBinhHubGUI
+Frame.Parent = DrayhhHubKaitun
 Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
 Frame.Position = UDim2.new(0.499266863, -516, 0.498697907, -291)
@@ -246,7 +246,7 @@ BlockCorner.BorderColor3 = Color3.fromRGB(36, 36, 36)
 BlockCorner.Position = UDim2.new(-0.000219917798, 0, -0.0050350721, 0)
 BlockCorner.Size = UDim2.new(0, 766, 0, 83)
 
-Credits1.Name = "Credits1"
+Credits1.Name = "Cervo de Deus rafael"
 Credits1.Parent = Below
 Credits1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Credits1.BackgroundTransparency = 1.000
@@ -261,7 +261,7 @@ Credits1.TextTransparency = 0.790
 Credits1.TextWrapped = true
 Credits1.TextXAlignment = Enum.TextXAlignment.Right
 
-Credits2.Name = "Credits2"
+Credits2.Name = "DrayhhHubKaitun"
 Credits2.Parent = Below
 Credits2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Credits2.BackgroundTransparency = 1.000
@@ -284,7 +284,7 @@ Brand.BorderSizePixel = 0
 Brand.Position = UDim2.new(0.795740545, 0, 0.010291595, 0)
 Brand.Size = UDim2.new(0, 200, 0, 27)
 Brand.Font = Enum.Font.Gotham
-Brand.Text = "catn1qqer x Binh Hub"
+Brand.Text = "Cervo de Deus rafael x DrayhhHubKaitun"
 Brand.TextColor3 = Color3.fromRGB(255, 255, 255)
 Brand.TextSize = 17.000
 Brand.TextTransparency = 0.440
@@ -304,7 +304,7 @@ Profile.ScaleType = Enum.ScaleType.Crop
 UICorner_3.CornerRadius = UDim.new(1, 0)
 UICorner_3.Parent = Profile
 
-Welcome.Name = "Welcome"
+Welcome.Name = "Bem vindo"
 Welcome.Parent = Frame
 Welcome.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Welcome.BackgroundTransparency = 1.000
@@ -373,7 +373,7 @@ ProfileTab.BackgroundTransparency = 1.000
 ProfileTab.BorderSizePixel = 0
 ProfileTab.Position = UDim2.new(0.0389033705, 0, 0.0712717101, 0)
 ProfileTab.Size = UDim2.new(0, 40, 0, 40)
-ProfileTab.Image = "rbxassetid://7992557358"
+ProfileTab.Image = "rbxassetid://9180622670"
 ProfileTab.ScaleType = Enum.ScaleType.Crop
 
 PlayerStats.Name = "PlayerStats"
@@ -397,7 +397,7 @@ ItemsTab.BackgroundTransparency = 1.000
 ItemsTab.BorderSizePixel = 0
 ItemsTab.Position = UDim2.new(0.0516693145, 0, 0.529215634, 0)
 ItemsTab.Size = UDim2.new(0, 33, 0, 31)
-ItemsTab.Image = "rbxassetid://7485051715"
+ItemsTab.Image = "rbxassetid://9180622670"
 ItemsTab.ImageTransparency = 0.480
 ItemsTab.ScaleType = Enum.ScaleType.Crop
 
@@ -416,13 +416,13 @@ ItemsInv.TextTransparency = 0.480
 ItemsInv.TextWrapped = true
 ItemsInv.TextXAlignment = Enum.TextXAlignment.Left
 
-Main.Name = "Main"
+Main.Name = "Drayhh Hub kaitun"
 Main.Parent = Frame
 Main.BackgroundColor3 = Color3.fromRGB(85, 165, 175)
 Main.Position = UDim2.new(0.247821882, 0, 0.0668953657, 0)
 Main.Size = UDim2.new(0, 766, 0, 445)
 Main.ZIndex = 0
-Main.Image = "rbxassetid://13412525664"
+Main.Image = "rbxassetid://9180622670"
 
 UICorner_6.Parent = Main
 
@@ -440,7 +440,7 @@ Game.TextSize = 23.000
 Game.TextWrapped = true
 Game.TextXAlignment = Enum.TextXAlignment.Left
 
-CreatorName.Name = "CreatorName"
+CreatorName.Name = "Cervo de Deus rafael"
 CreatorName.Parent = Frame
 CreatorName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 CreatorName.BackgroundTransparency = 1.000
@@ -461,9 +461,9 @@ Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Logo.Position = UDim2.new(0.0199410655, 0, 0.0274442546, 0)
 Logo.Size = UDim2.new(0, 78, 0, 78)
-Logo.Image = "http://www.roblox.com/asset/?id=13450463175"
+Logo.Image = "http://www.roblox.com/asset/?id=9180622670"
 
-LogoName.Name = "LogoName"
+LogoName.Name = "Drayhh Hub Kaitun"
 LogoName.Parent = Logo
 LogoName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 LogoName.BackgroundTransparency = 1.000
@@ -471,7 +471,7 @@ LogoName.BorderSizePixel = 0
 LogoName.Position = UDim2.new(1.17929673, 0, 0.0880808681, 0)
 LogoName.Size = UDim2.new(0, 124, 0, 70)
 LogoName.Font = Enum.Font.GothamBold
-LogoName.Text = "Binh Hub Kaitun"
+LogoName.Text = "Drayhh Hub Kaitun"
 LogoName.TextColor3 = Color3.fromRGB(255, 255, 255)
 LogoName.TextSize = 23.000
 LogoName.TextWrapped = true
@@ -1855,4 +1855,4 @@ spawn(function() -- vẫn còn dùng được.
 				end
 			end)
 
-print("Reached end of script, all loops works fine!")
+print("Atingido o final do script, todos os loops funcionam bem!")
